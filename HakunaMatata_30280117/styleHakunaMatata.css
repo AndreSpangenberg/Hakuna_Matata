@@ -1,0 +1,159 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+header {
+    background-image: url('Images/main.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a {
+     background-color: #fff;
+     color: #000;
+}
+.logo img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box1 {
+    position: absolute;
+    top: 52.3%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 340px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.gameDrive {
+    width: 255px;
+    height: 200px;
+    overflow: hidden;
+    top: 5%;
+    left: 7%;
+    position: absolute;
+}
+.btnGameDrive {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 195px;
+}
+.btnGameDrive , .btnHouse, .btnSpa, .btnPackage {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(255,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.btnGameDrive:hover, .btnHouse:hover, .btnSpa:hover, .btnPackage:hover {
+    background-color: rgb(255,217,9);
+}
+
+.box2 {
+    position: absolute;
+    top: 52.3%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 340px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.house {
+    width: 255px;
+    height: 200px;
+    overflow: hidden;
+    top: -65px;
+    left: -19px;
+    position: relative;
+}
+.btnHouse {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: -45px;
+}
+
+
+.box3 {
+    position: absolute;
+    top: 52.3%;
+    left: 61%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 340px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.spa {
+    width: 255px;
+    height: 200px;
+    overflow: hidden;
+    top: -65px;
+    left: -19px;
+    position: relative;
+}
+.btnSpa {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: -45px;
+}
+
+.box4 {
+    position: absolute;
+    top: 52.3%;
+    left: 84%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 340px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.package {
+    width: 255px;
+    height: 200px;
+    overflow: hidden;
+    top: -65px;
+    left: -19px;
+    position: relative;
+}
+.btnPackage {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
